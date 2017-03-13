@@ -1,4 +1,4 @@
-export const browser = {
+const browserUtils = {
   isWeChat: function () {
     return /MicroMessenger/i.test(navigator.userAgent)
   },
@@ -20,3 +20,5 @@ export const browser = {
     }
   }
 }
+
+export default browserUtils

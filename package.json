@@ -2,10 +2,19 @@
   "name": "react-utils-yee",
   "version": "1.0.0",
   "description": "utils used in project",
-  "main": "./src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weiyisheng/react-utils-yee"
   },
-  "author": "",
+  "scripts": {
+    "babel-src": "babel src --out-dir lib"
+  },
+  "author": "weiyisheng",
+  "keyword": [
+    "react",
+    "utils",
+    "react-utils"
+  ],
   "license": "ISC"
 }

@@ -1,4 +1,4 @@
-export const URLUtils = {
+const urlUtils = {
   getQuery(url){
      let query = {};
      let hashes = url.slice(url.indexOf('?') + 1).split('&');
@@ -12,3 +12,5 @@ export const URLUtils = {
     return this.getQuery(window.location.href).storeId
   }
 }
+
+export default urlUtils

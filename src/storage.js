@@ -1,4 +1,4 @@
-export const Storage = {
+const storageUtils = {
 
   supports() {
     try {
@@ -31,3 +31,5 @@ export const Storage = {
   }
 
 }
+
+export default storageUtils
