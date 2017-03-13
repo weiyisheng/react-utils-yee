@@ -1,6 +1,6 @@
 {
   "name": "react-utils-yee",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "utils used in project",
   "main": "./lib/index.js",
   "repository": {
